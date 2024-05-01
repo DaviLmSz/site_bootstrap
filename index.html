@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja de Roupas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+    
+        
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+      <a class="navbar-brand" href="#">HOPE CLOTHE</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#produtos">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    
+</header>
+<section id="home" class="container home">
+    <div class="jumbotron">
+        <h1 class="display-4">Bem-vindo à Minha Loja de Roupas</h1>
+        <p class="lead">Encontre as últimas tendências em moda masculina, feminina e infantil.</p>
+        <hr class="my-4">
+        <p>Oferecemos uma ampla variedade de roupas, sapatos e acessórios para todos os estilos e ocasiões.</p>
+        <a class="btn btn-warning btn-lg" href="#produtos" role="button">Ver Produtos</a>
+    </div>
+</section>
+<br><br>
+
+
+<section id="produtos" class="container produtos">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../img/blusa.jpg" class="card-img-top" alt="..." style="height: 250px;">
+                <div class="card-body">
+                    <h5 class="card-title">Camiseta</h5>
+                    <p class="card-text">$60.00</p>
+                    <a href="#" class="btn btn-warning">Adicionar ao Carrinho</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../img/calca.jpg" class="card-img-top" alt="..." style="height: 250px;">
+                <div class="card-body">
+                    <h5 class="card-title">Calça Jeans</h5>
+                    <p class="card-text">$100.00</p>
+                    <a href="#" class="btn btn-warning">Adicionar ao Carrinho</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="../img/tenis.jpg" class="card-img-top" alt="..." style="height: 250px;">
+                <div class="card-body">
+                    <h5 class="card-title">Tenis</h5>
+                    <p class="card-text">$200.00</p>
+                    <a href="#" class="btn btn-warning">Adicionar ao Carrinho</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br><br>
+<section id="contato" class="container contato">
+    <div >
+        <h2>Entre em Contato Conosco</h2>
+        <p>Se você tiver alguma dúvida, sugestão ou precisar de assistência, por favor, entre em contato conosco através do formulário abaixo ou pelos nossos canais de comunicação.</p>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="form-control" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Enviar</button>
+        </form>
+    </div>
+</section>
+<br><br>
+<footer class="footer mt-auto py-3 bg-warning text-white">
+  <div class="container text-center">
+    <span>&copy; 2024 Minha Loja de Roupas</span>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
